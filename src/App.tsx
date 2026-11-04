@@ -10,6 +10,7 @@ import { Footer } from './components/Footer';
 import { BookingModal } from './components/BookingModal';
 import { TreatmentModal } from './components/TreatmentModal';
 import { WriteReviewModal } from './components/WriteReviewModal';
+import { FloatingMobileAction } from './components/FloatingMobileAction';
 import { Treatment } from './data/clinicData';
 
 export default function App() {
@@ -28,7 +29,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF7F5] text-slate-900 font-sans selection:bg-purple-100 selection:text-purple-900">
+    <div className="min-h-screen bg-[#FAF7F5] text-slate-900 font-sans selection:bg-purple-100 selection:text-purple-900 pb-12 sm:pb-0">
       {/* Fixed Navigation Header */}
       <Navbar onOpenBooking={handleOpenBooking} />
 
@@ -58,6 +59,9 @@ export default function App() {
 
       {/* Footer */}
       <Footer onOpenBooking={handleOpenBooking} />
+
+      {/* Floating Action Pill on Mobile Screens */}
+      <FloatingMobileAction onOpenBooking={() => handleOpenBooking()} />
 
       {/* Consultation Booking Modal */}
       <BookingModal

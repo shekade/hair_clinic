@@ -54,6 +54,7 @@ export const CLINIC_INFO = {
 
 export const IMAGES = {
   heroSkinPortrait: "/src/assets/images/hero_natural_skin_portrait_1793791275574.jpg",
+  heroSkinPortraitMobile: "/src/assets/images/hero_mobile_skin_portrait_1793792611006.jpg",
   heroClinicalCard: "/src/assets/images/hero_clinical_treatment_card_1793791276285.jpg",
   doctorPortrait: "/src/assets/images/doctor_portrait_dr_bhagyashri_1793791276905.jpg",
   treatmentSkin: "/src/assets/images/treatment_skin_dermatology_1793791277007.jpg",
