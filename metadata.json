@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Bhagyashri's Homeoderma Skin Clinic & Wellness Hub",
+  "description": "Official website for Dr. Bhagyashri's Homeoderma Skin Clinic & Wellness Hub in Ravet, Pimpri-Chinchwad. Personalized skin care, hair restoration, homeopathy, and wellness consultations by Dr. Bhagyashri K. (Thombre).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
